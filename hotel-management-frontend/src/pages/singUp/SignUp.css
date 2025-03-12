@@ -1,0 +1,62 @@
+.signup-container {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.25);
+    border-color: #212529;
+}
+
+.btn-dark {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #343a40;
+    transform: translateY(-1px);
+}
+
+.form-check-input:checked {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.text-dark:hover {
+    color: #343a40 !important;
+    text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 2rem !important;
+    }
+    
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 1.5rem !important;
+    }
+}
