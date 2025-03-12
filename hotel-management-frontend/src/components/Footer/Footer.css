@@ -1,0 +1,22 @@
+.footer {
+    margin-top: auto;
+    padding: 2rem 0;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #007bff !important;
+}
