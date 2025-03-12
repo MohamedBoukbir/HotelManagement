@@ -1,0 +1,4 @@
+# Ignorer tous les dossiers node_modules
+node_modules/
+hotel-management-frontend/node_modules/
+HotelManagementMobile/node_modules/
