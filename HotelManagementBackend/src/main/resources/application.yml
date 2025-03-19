@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: HotelManagementBackend
+  datasource:
+    url: jdbc:postgresql://localhost:15432/hotel-management
+    username: mohamed
+    password: mohamed
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#  security:
+#    cors:
+#      allowed-origins: "*"
+#      allowed-methods: "GET,POST,PUT,DELETE,OPTIONS"
+#      allowed-headers: "*"
+jwt:
+  secret: 123456ty78ui9o0pkj4g8das7wer34567890oiu8tr5678uh9t5r4e3w2345rf67
+server:
+  port: 8085
+#  address: 0.0.0.0
+
+
